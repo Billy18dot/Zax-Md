@@ -16,19 +16,19 @@ global.github = process.env.GITHUB || "https://github.com/Xiangzaoh/Zax-Md";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://iili.io/JgAR7WJ.jpg";
-global.devs = "255688930205";
-global.sudo = process.env.SUDO || "255688930205";
-global.owner = process.env.OWNER_NUMBER || "255688930205";
+global.devs = "27613106647";
+global.sudo = process.env.SUDO || "27613106647";
+global.owner = process.env.OWNER_NUMBER || "27613106647";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "available";
-global.readcmds = process.env.READ_COMMAND || "false";
+global.waPresence = process.env.WAPRESENCE || "recording";
+global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
@@ -45,15 +45,15 @@ global.SESSION_ID =
 
 module.exports = {
   menu: process.env.MENU || "menu1",
-  HANDLERS: process.env.PREFIX || "",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "©zᴀxᴍᴅ",
   author: process.env.PACK_AUTHER || "zᴀx-ᴍᴅ",
   packname: process.env.PACK_NAME || "zᴀx-bot",
   botname: process.env.BOT_NAME || "zᴀx ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "MrXhriss",
-  errorChat: process.env.ERROR_CHAT || "",
+  ownername: process.env.OWNER_NAME || "Mr-Jones",
+  errorChat: process.env.ERROR_CHAT || "27613106647",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "zᴀx").toUpperCase(),
 };
 global.rank = "updated";
